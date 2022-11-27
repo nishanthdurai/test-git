@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_author_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/view_article_view_author_name_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="சரவணன் ர"
+        android:textColor="#BF000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_article_view_author_img"
+        app:layout_constraintStart_toEndOf="@+id/view_article_view_author_img"
+        app:layout_constraintTop_toTopOf="@+id/view_article_view_author_img" />
+
+    <ImageView
+        android:id="@+id/view_article_view_author_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/view_article_view_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Sept 12, 2019"
+        android:textColor="#BF000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintStart_toEndOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.50" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#80000000"
+        app:layout_constraintBottom_toBottomOf="@+id/view_article_view_author_name_txt"
+        app:layout_constraintStart_toEndOf="@+id/view_article_view_author_name_txt"
+        app:layout_constraintTop_toTopOf="@+id/view_article_view_author_name_txt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

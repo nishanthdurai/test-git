@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/view_article_view_paragraph_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:lineSpacingMultiplier="1.2"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="சென்னை: காலம் மாற மாற நிறைய விஷயங்களும் கூட மறந்து போய் விடுகின்றன அல்லது மறைந்து போய் விடுகின்றன. அதில் ஒன்று தான் சின்ன வயதில் நமக்கு கற்றுக் கொடுத்த சில நல்ல பாடங்கள். முன்பெல்லாம் எதையும் மறக்காமல் இருக்க சின்னச் சின்னதாக டிரிக்ஸ் சொல்லிக் கொடுப்பாங்க வீட்டிலும், பள்ளியிலும். ஆனால் இப்போதெல்லாம் குழந்தைகள் அதை சட்டை செய்வதில்லை. இப்போது பெரியவர்களே கூட நிறைய விஷயங்களை மறந்து விட்டு முழிக்கிறார்கள்."
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

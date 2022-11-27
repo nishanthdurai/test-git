@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/holder_naigation_menu"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@color/colorPrimary"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="66dp"
+            android:layout_weight="0.2"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/navMenuHome"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_home" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textSize="10dp"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:layout_marginTop="-2dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="66dp"
+            android:layout_weight="0.2"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/navMenuRating"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/rate_us" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Rate us"
+                android:textSize="10dp"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:layout_marginTop="-2dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="66dp"
+            android:layout_weight="0.2"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/navMenuMail"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_mail" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Mail"
+                android:textSize="10dp"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:layout_marginTop="-2dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="66dp"
+            android:layout_weight="0.2"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/navMenuFacebook"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_facebook" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:textSize="10dp"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:layout_marginTop="-2dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="66dp"
+            android:layout_weight="0.2"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/navMenuMoreApps"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="12dp"
+                android:src="@drawable/ic_play_store" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="More Apps"
+                android:textSize="10dp"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:layout_marginTop="-2dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_row_split_promotional_apps"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorTextTitle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorTextTitle" />
+
+    <TextView
+        android:id="@+id/navMenuSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="@string/search"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorTextTitle" />
+
+    <TextView
+        android:id="@+id/navMenuLastRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="@string/last_read_page"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorTextTitle" />
+
+    <TextView
+        android:id="@+id/navMenuBookmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="@string/bookmarks"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorTextTitle" />
+
+    <TextView
+        android:id="@+id/navMenuDownloadFonts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="@string/download_fonts"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorTextTitle" />
+
+    <TextView
+        android:id="@+id/navMenuDownloadThemes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="@string/download_themes"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorTextTitle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/table_of_contents"
+        android:textSize="15sp" />
+</LinearLayout>

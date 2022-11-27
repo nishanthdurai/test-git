@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:forceDarkAllowed="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rect_rounded"
+    android:paddingBottom="24dp"
+    tools:context=".dialogs.HelpUsDialog">
+
+    <TextView
+        android:id="@+id/titleDialogTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="@string/help_us"
+        android:textColor="@color/colorTextTitle"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/descDialogTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleDialogTxt"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="@string/help_us_message"
+        android:textColor="@color/colorTextDetail"
+        android:textSize="15sp"
+        app:lineHeight="21sp" />
+
+    <Button
+        android:id="@+id/rateNowDialogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/descDialogTxt"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="right|center_vertical"
+        android:text="@string/rate_us"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/mailNowDialogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="right|center_vertical"
+        android:text="@string/share_thoughts"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:layout_below="@+id/rateNowDialogBtn"/>
+
+    <Button
+        android:id="@+id/otherAppsDialogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/mailNowDialogBtn"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="right|center_vertical"
+        android:text="@string/other_apps"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+

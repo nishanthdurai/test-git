@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_bookmark"
+          android:icon="@drawable/ic_bookmark"
+          android:title="Bookmark"
+          app:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_search"
+          android:title="Search"
+          app:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_last_heard"
+        android:title="கடைசியாக கேட்டது"
+        app:showAsAction="collapseActionView"
+        />
+
+    <item android:id="@+id/action_last_read"
+          android:title="கடைசியாக படித்தது"
+          app:showAsAction="collapseActionView"
+          />
+
+    <item android:id="@+id/action_help"
+          android:title="எனக்கு உதவவும்"
+          app:showAsAction="collapseActionView"
+        />
+
+    <item android:id="@+id/action_rate_app"
+          android:title="Rate the app"
+          app:showAsAction="collapseActionView"
+        />
+
+    <item android:id="@+id/action_mail"
+          android:title="மின்னஞ்சல்"
+          app:showAsAction="collapseActionView"
+        />
+
+    <item android:id="@+id/action_facebook"
+          android:title="முகநூல் பக்கம்"
+          app:showAsAction="collapseActionView"
+        />
+
+    <item android:id="@+id/action_more_apps"
+          android:title="எனது பிற செயலிகள்"
+          app:showAsAction="collapseActionView"
+        />
+
+</menu>

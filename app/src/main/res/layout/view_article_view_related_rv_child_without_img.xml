@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="20dp"
+    android:layout_width="280dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/view_article_view_related_title_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="5"
+        android:minLines="2"
+        android:text="நீ நட்ட மரத்தின் நிழல்களை.. கடந்து செல்பவ"
+        android:textColor="#292727"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/view_article_view_related_date_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aug, 15, 2020"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/view_article_view_related_title_txt"
+            app:layout_constraintHorizontal_bias="0.89"
+            app:layout_constraintStart_toStartOf="@+id/view_article_view_related_title_txt"
+            app:layout_constraintTop_toBottomOf="@+id/view_article_view_related_title_txt" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="view_article_view_related_title_txt,view_article_view_related_date_txt"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="722dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

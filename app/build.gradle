@@ -1,0 +1,55 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.whiture.apps.tamil.thousand.nights'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.whiture.apps.tamil.thousand.nights"
+        minSdk 21
+        targetSdk 32
+        versionCode 60
+        versionName "60.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
+
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+
+    implementation platform('com.google.firebase:firebase-bom:31.1.0')
+    implementation 'com.google.firebase:firebase-messaging-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+
+    implementation 'androidx.media:media:1.6.0'
+
+    implementation 'com.google.android.gms:play-services-ads:21.3.0'
+}

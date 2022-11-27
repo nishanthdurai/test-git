@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/promoAppIconImg"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/promoAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="நோக்கியா போன் விளையாட்டுகள்"
+        android:textSize="15sp"
+        android:textColor="@color/colorTextTitle"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/promoAppIconImg"
+        />
+
+    <TextView
+        android:id="@+id/promoAppDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:text="100K+ Downloads"
+        android:textColor="@color/colorTextDetail"
+        android:textSize="12sp"
+        android:layout_below="@+id/promoAppTitle"
+        android:layout_toRightOf="@+id/promoAppIconImg"
+        />
+
+    <ImageView
+        android:id="@+id/promoAppRating"
+        android:layout_width="120dp"
+        android:layout_height="24dp"
+        android:layout_alignBottom="@+id/promoAppIconImg"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/promoAppIconImg"
+        android:src="@drawable/rating_ten" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/promoAppRating"
+        android:layout_marginTop="4dp"
+        android:alpha="0.25"
+        android:background="@color/colorTextDetail" />
+
+</RelativeLayout>
+

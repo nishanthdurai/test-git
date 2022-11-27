@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:id="@+id/view_article_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/view_article_home_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <TextView
+            android:id="@+id/view_article_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:layout_margin="4dp"
+            android:text="Article 1"
+            android:textSize="16sp"
+            android:textColor="@color/colorArticleTitle"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/view_article_img"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.4"
+            android:layout_margin="4dp"
+            android:adjustViewBounds="true" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/view_article_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Description"
+        android:textSize="16sp"
+        android:textColor="@color/colorArticleTitle"
+        app:layout_constraintTop_toBottomOf="@+id/view_article_home_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/view1" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@+id/view_article_description"
+        app:layout_constraintStart_toStartOf="@+id/view_article_description"
+        app:layout_constraintEnd_toEndOf="@+id/view_article_description"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

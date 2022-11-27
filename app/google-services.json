@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "486748433108",
+    "project_id": "whi-fire-tamil-readers",
+    "storage_bucket": "whi-fire-tamil-readers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486748433108:android:88de9fddd3077ba3e2a941",
+        "android_client_info": {
+          "package_name": "com.whiture.apps.tamil.thousand.nights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486748433108-s28vv9m530n4ais4uk2h212v2lj0i788.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7MbZnymN0VnkWlPUg4nzoqaSt_CF_nc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486748433108-s28vv9m530n4ais4uk2h212v2lj0i788.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

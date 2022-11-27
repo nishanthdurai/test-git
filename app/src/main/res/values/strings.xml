@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">1001 Nights in Tamil</string>
+
+    <string name="please_wait_message">தயவு செய்து காத்திருக்கவும்</string>
+    <string name="please_wait">சற்று காத்திருக்கவும்..</string>
+
+    <!-- App Messages -->
+    <string name="enter_atleast_four">குறைந்தபட்சம் நான்கு எழுத்துக்களாவது தரவும்.</string>
+    <string name="search_not_good">தேடல் சரியில்லை</string>
+
+    <string name="share_message">\"Book App\" செயலியில் இருந்து பகிரப்பட்டது.\n- சுதாகர் கனகராஜ்</string>
+
+    <string name="help_us">உங்கள் மேலான உதவி!</string>
+    <string name="help_us_message">தாங்கள் தயவுகூர்ந்து கீழ்கண்ட வழிகளில் எனக்கு உதவி செய்யவும். எனது செயலிக்கு 5 நட்சத்திர மதிப்பிடலாம், அல்லது தங்கள் கருத்துக்களை மின்னஞ்சல் மூலம் தெரிவிக்கலாம், அல்லது எனது பிற செயலிகளை பதிவிறக்கம் செய்து உபயோகிக்கலாம்.</string>
+    <string name="rate_us">செயலியை மதிப்பிடுங்கள்</string>
+    <string name="share_thoughts">கருத்துக்களை அனுப்புங்கள்</string>
+    <string name="other_apps">எமது பிற செயலிகள்</string>
+    <string name="please_help_us">தயவுகூர்ந்து எனக்கு உதவுங்கள்</string>
+    <string name="rating_help_message">அன்பரே, இந்த செயலியை நீங்கள் மதிப்பீடு செய்வதால், மேலும் பலர் பதிவிறக்கம் செய்து உபயோகிப்பார்கள். இதனால் என்னால், நமது அன்னை தமிழ் மொழியை பரவலாக அனைவரிடமும் எடுத்து செல்ல முடியும். நன்றி!.</string>
+    <string name="must">கண்டிப்பாக</string>
+    <string name="after_some_time">பிறகொரு முறை</string>
+
+    <string name="check_internet_message">தங்களது மொபைலில் இன்டர்நெட்டை சரி செய்து மீண்டும் முயற்சி செய்யவும்.</string>
+    <string name="exit_popup_message">எமது செயலியில் இருந்து தாங்கள் வெளியேற விரும்புகிறீர்களா?</string>
+
+    <string name="table_of_contents">Table of Contents</string>
+    <string name="download_fonts">Download Fonts</string>
+    <string name="download_themes">Download Themes</string>
+    <string name="last_read_page">Last Read Page</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="help">Help</string>
+    <string name="reset_page_settings">Reset Page Settings</string>
+
+    <!-- book store -->
+    <!-- Book Store Related -->
+    <string name="font_size_vsmall">10</string>
+    <string name="font_size_small">12</string>
+    <string name="font_size_medium">15</string>
+    <string name="font_size_large">18</string>
+    <string name="font_size_xlarge">21</string>
+
+    <string-array name="font_size">
+        <item>Very Small</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Xtra Large</item>
+    </string-array>
+    <string-array name="font_type">
+        <item>System</item>
+        <item>Mylai</item>
+        <item>Comic</item>
+        <item>Indira</item>
+        <item>Sai</item>
+    </string-array>
+    <string-array name="font_names">
+        <item>mylai.ttf</item>
+        <item>comic.ttf</item>
+        <item>indira.ttf</item>
+        <item>sai.ttf</item>
+    </string-array>
+    <string-array name="read_mode">
+        <item>Day</item>
+        <item>Night</item>
+        <item>Sepia</item>
+        <item>Black</item>
+        <item>Grey</item>
+        <item>Green</item>
+        <item>Paper</item>
+    </string-array>
+
+    <!-- string externalization -->
+    <string name="download_finished">பதிவிறக்கம் முடிந்தது.</string>
+    <string name="download_failed">பதிவிறக்கம் தோல்வியடைந்தது.</string>
+    <string name="tour_swipe_to_next_page">அடுத்த பக்கம் செல்ல, வலமிருந்து இடப்புறமாக swipe செய்யவும்.</string>
+    <string name="tour_swipe_to_previous_page">முந்தைய பக்கம் செல்ல, இடமிருந்து வலப்புறமாக swipe செய்யவும்.</string>
+    <string name="tour_menu_click_message">புத்தகத்தின் பாகங்களை பார்க்க, மேலுள்ள இந்த Menu-ஐ click செய்யவும்.</string>
+    <string name="tour_search_book_message">புத்தகத்தினுள் தேடுவதற்கு, மேலுள்ள இந்த Button-ஐ click செய்யவும்.</string>
+    <string name="tour_bookmark_message">பக்கங்களை Bookmark செய்ய, மேலுள்ள இந்த Button-ஐ click செய்யவும்.</string>
+    <string name="tour_change_orientation_message">மொபைலில் வலம் இடதாக படிக்க, மேலுள்ள இந்த Button-ஐ click செய்யவும்</string>
+    <string name="tour_change_color_message">வண்ணம் மற்றும் எழுத்துருக்களை மாற்ற, மேலுள்ள இந்த Button-ஐ click செய்யவும்.</string>
+    <string name="book_download_message">தங்களது புத்தகம் பதிவிறக்கம் செய்யப்படுகிறது, அது முடியும் வரை சற்று காத்திருக்கவும்.</string>
+    <string name="assets_downloading_message">தங்களது asset பதிவிறக்கம் செய்யப்படுகிறது, அது முடியும் வரை சற்று காத்திருக்கவும்.</string>
+    <string name="assets_downloaded_message">தங்களது asset முழுவதுமாக பதிவிறக்கம் செய்யப்பட்டுள்ளது. இனி எப்பொழுதும் தங்கள் மொபைலில் இதை வைத்து கொள்ளலாம்.</string>
+    <string name="user_credits">வாசகர் பாராட்டுகள்</string>
+    <string name="check_new_books_message">ஏதேனும் புதிய புத்தகங்கள் இருக்கிறதா என சரி பார்க்கிறோம், சற்று காத்திருக்கவும்.</string>
+    <string name="banner_remove_ads">விளம்பரத்தை நீக்க</string>
+    <string name="tour_touch_screen">Screen-ஐ தொடுவதன் மூலம் Menu-ஐ கொண்டுவரலாம்.</string>
+    <string name="sorry">மன்னிக்கவும்</string>
+    <string name="default_notification_channel_id">nila</string>
+    <string name="search">Search</string>
+
+    <!-- Other Data -->
+    <string-array name="select_time">
+        <item>7:00</item>
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>6:00</item>
+    </string-array>
+
+    <string-array name="select_meridian">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <string-array name="share_as">
+        <item>Text</item>
+        <item>Image</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/bookmarkThumbnailImg"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/no_image" />
+
+    <TextView
+        android:id="@+id/bookmarkSectionTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:maxLines="1"
+        android:minLines="1"
+        android:text="தமிழ் காலண்டர் 2018 - 2025"
+        android:textColor="@color/colorTextTitle"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bookmarkThumbnailImg"
+        app:layout_constraintTop_toTopOf="@+id/bookmarkThumbnailImg" />
+
+    <TextView
+        android:id="@+id/bookmarkChapterTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:maxLines="1"
+        android:minLines="1"
+        android:text="சுதாகர் கனகராஜ்"
+        android:textColor="@color/colorTextTitle"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bookmarkThumbnailImg"
+        app:layout_constraintTop_toBottomOf="@+id/bookmarkSectionTitle" />
+
+    <TextView
+        android:id="@+id/bookmarkContent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Content"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bookmarkThumbnailImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/bookmarkThumbnailImg"
+        app:layout_constraintTop_toBottomOf="@+id/bookmarkChapterTitle" />
+
+    <ImageView
+        android:id="@+id/fragment_reader_audio_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/ic_reader_book"
+        app:layout_constraintBottom_toBottomOf="@+id/bookmarkThumbnailImg"
+        app:layout_constraintEnd_toEndOf="@+id/bookmarkThumbnailImg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

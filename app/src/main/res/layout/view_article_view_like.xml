@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_margin="4dp"
+        android:background="@color/colorTextDetail"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/view_article_view_like_btn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="2dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_article_like"
+        app:layout_constraintTop_toBottomOf="@+id/view1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/view_article_view_like_text"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="18sp"
+        android:textColor="@color/colorTextTitle"
+        app:layout_constraintTop_toBottomOf="@+id/view1"
+        app:layout_constraintStart_toEndOf="@+id/view_article_view_like_btn"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageView
+        android:id="@+id/view_article_view_dislike_btn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="2dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_article_dislike"
+        app:layout_constraintTop_toBottomOf="@+id/view1"
+        app:layout_constraintStart_toEndOf="@+id/view_article_view_like_text"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/view_article_view_dislike_text"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="18sp"
+        android:textColor="@color/colorTextTitle"
+        app:layout_constraintTop_toBottomOf="@+id/view1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view_article_view_dislike_btn" />
+
+    <ImageView
+        android:id="@+id/view_article_view_views_img"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="2dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_article_viewed"
+        app:layout_constraintTop_toBottomOf="@+id/view1"
+        app:layout_constraintStart_toEndOf="@+id/view_article_view_dislike_text"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/view_article_view_count_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="2dp"
+        android:gravity="center_vertical"
+        android:text="2"
+        android:textSize="18sp"
+        android:textColor="@color/colorTextTitle"
+        app:layout_constraintTop_toBottomOf="@+id/view1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view_article_view_views_img"/>
+
+    <ImageView
+        android:id="@+id/view_article_view_share_img"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="2dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_share"
+        app:layout_constraintTop_toBottomOf="@+id/view1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view_article_view_count_txt" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_margin="4dp"
+        android:background="@color/colorTextDetail"
+        app:layout_constraintTop_toBottomOf="@+id/view_article_view_count_txt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

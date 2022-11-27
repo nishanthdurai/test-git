@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ArticleViewActivity">
+
+    <item
+        android:id="@+id/menu_article_view_text_size"
+        android:title="Size"
+        android:icon="@drawable/ic_menu_article_font"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_article_view_favourites"
+        android:title="User"
+        app:showAsAction="ifRoom"/>
+
+</menu>

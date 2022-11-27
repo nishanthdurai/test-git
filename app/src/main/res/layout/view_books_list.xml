@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:id="@+id/imgBookThumbnail"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/no_image" />
+
+    <TextView
+        android:id="@+id/txtBookTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:maxLines="1"
+        android:minLines="1"
+        android:text="தமிழ் காலண்டர் 2018 - 2025"
+        android:textColor="@color/colorTextTitle"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtAuthorName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgBookThumbnail"
+        app:layout_constraintTop_toTopOf="@+id/imgBookThumbnail"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <TextView
+        android:id="@+id/txtAuthorName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:maxLines="1"
+        android:minLines="1"
+        android:text="சுதாகர் கனகராஜ்"
+        android:textColor="@color/colorTextTitle"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtBookDesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgBookThumbnail"
+        app:layout_constraintTop_toBottomOf="@+id/txtBookTitle" />
+
+    <TextView
+        android:id="@+id/txtBookDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="நாள்காட்டி, மாதகாட்டி, பஞ்சாங்கம், திருமணப்பொருத்தம், தின செய்திகள், ராசி பலன்கள், நியூமெராலஜி என பல பயன்பாட்டுடன் கூடிய No 1 காலண்டர் செயலி."
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/layoutBookReadHear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgBookThumbnail"
+        app:layout_constraintTop_toBottomOf="@+id/txtAuthorName" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutBookReadHear"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgBookThumbnail"
+        app:layout_constraintEnd_toEndOf="@+id/txtBookTitle"
+        app:layout_constraintStart_toStartOf="@+id/txtBookTitle"
+        app:layout_constraintTop_toBottomOf="@+id/txtBookDesc">
+
+        <Button
+            android:id="@+id/btnBookRead"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawable_button_bg_hear_read"
+            android:gravity="center"
+            android:text="படிக்க"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnBookHear"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnBookHear"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawable_button_bg_hear_read"
+            android:gravity="center"
+            android:text="கேட்க"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnBookRead"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#B3717171"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtAuthorName"
+        app:layout_constraintStart_toStartOf="@+id/imgBookThumbnail"
+        app:layout_constraintTop_toBottomOf="@+id/layoutBookReadHear" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
